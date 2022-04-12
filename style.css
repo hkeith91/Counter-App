@@ -2,11 +2,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(12, 61, 100);
 }
 
 #counter-body {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   align-items: center;
   border: 10px solid navy;
   border-radius: 5px;
@@ -16,4 +18,36 @@ body {
 
 #buttons-container {
   display: flex;
+=======
+  justify-content: space-evenly;
+  background-color: rgb(58, 102, 137);
+  align-items: center;
+  border: 5px ridge aliceblue;
+  border-radius: 5px;
+  min-width: 350px;
+  min-height: 500px;
+}
+
+#current-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 275px;
+  border: 5px ridge aliceblue;
+  border-radius: 50%;
+}
+
+#buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+#count-by{
+  margin: 0 20px;
+}
+
+.button{
+  border: 5px solid gray;
+>>>>>>> 0e955661f4823f7782dcba17c32c48f0ed8f7599
 }
