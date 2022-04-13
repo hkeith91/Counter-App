@@ -2,8 +2,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 75vh;
   background-color: rgb(12, 61, 100);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #counter-body {
@@ -35,39 +36,39 @@ body {
   align-items: center;
 }
 
-#count-by{
+#count-by {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 20px;
   padding: 15px;
-  font-size: 38px;
+  font-size: 34px;
   border: 5px solid rgb(39, 91, 133);
   background-color: rgba(240, 248, 255, 0.267);
   border-radius: 50%;
-  width:16px;
+  width: 16px;
   height: 16px;
 }
 
-button{
+button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.button{
+.button {
   border-radius: 10%;
   width: 90px;
   height: 65px;
   font-size: 54px;
 }
 
-#plus{
+#plus {
   border: 5px ridge rgb(82, 156, 82);
   background-color: rgb(89, 163, 89);
 }
 
-#minus{
+#minus {
   border: 5px ridge rgb(205, 55, 55);
   background-color: rgb(176, 69, 69);
 }
