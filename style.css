@@ -3,13 +3,14 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(12, 61, 100);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #counter-body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: rgb(58, 102, 137);
+  background-color: rgb(95, 129, 158);
   align-items: center;
   border: 5px ridge aliceblue;
   border-radius: 5px;
@@ -23,8 +24,10 @@ body {
   align-items: center;
   width: 275px;
   height: 275px;
-  border: 5px ridge aliceblue;
+  border: 10px solid rgb(39, 91, 133);
+  background-color: rgba(240, 248, 255, 0.267);
   border-radius: 50%;
+  font-size: 108px;
 }
 
 #buttons-container {
@@ -33,9 +36,38 @@ body {
 }
 
 #count-by{
-  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  padding: 15px;
+  font-size: 38px;
+  border: 5px solid rgb(39, 91, 133);
+  background-color: rgba(240, 248, 255, 0.267);
+  border-radius: 50%;
+  width:16px;
+  height: 16px;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button{
-  border: 5px solid gray;
+  border-radius: 10%;
+  width: 90px;
+  height: 65px;
+  font-size: 54px;
+}
+
+#plus{
+  border: 5px ridge rgb(82, 156, 82);
+  background-color: rgb(89, 163, 89);
+}
+
+#minus{
+  border: 5px ridge rgb(205, 55, 55);
+  background-color: rgb(176, 69, 69);
 }
