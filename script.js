@@ -1,5 +1,6 @@
 let startingCount = 0;
 let countBy = 1;
+let negNum = false;
 
 const plus = document.querySelector("#plus");
 const minus = document.querySelector("#minus");
@@ -14,8 +15,10 @@ plus.addEventListener("click", e =>{
 });
 
 minus.addEventListener("click", e =>{
-    if(startingCountUI === 0) return;
+    if(!negNum && startingCount === 0) return;
     startingCount -= countBy;
     startingCountUI.textContent = startingCount;
 })
+
+
 

@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CounterApp</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-  </head>
-  
-  <body>
-    <div id="counter-body">
-        <div id="current-count"></div>
-        <div id="buttons-container">
-          <button id="minus" class="button btn-row">-</button>
-          <div id="count-by" class="btn-row"></div>
-          <button id="plus" class="button btn-row">+</button>
-        </div>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CounterApp</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div id="counter-body">
+    <div id="current-count"></div>
+    <div id="buttons-container">
+      <button id="minus" class="button btn-row">-</button>
+      <div id="count-by" class="btn-row"></div>
+      <button id="plus" class="button btn-row">+</button>
     </div>
-  </body>
+  </div>
+  <div id="options-window">
+    <form>
+      <label for="count-by"></label>
+      <input type="range" id="count-by" name="count-by" min="1" max="99">
+      <label for="toggle-negatives"></label>
+      <input type="radio" id="toggle-negatives" name="toggle-negatives" value="Allow Negatives">
+    </form>
+  </div>
+  </div>
+</body>
+
 </html>

@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 75vh;
@@ -7,16 +8,26 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+#options-window{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #counter-body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: rgb(95, 129, 158);
   align-items: center;
+  min-height: 450px;
+}
+
+#options-window, #counter-body{
+  background-color: rgb(95, 129, 158);
   border: 5px ridge aliceblue;
   border-radius: 5px;
   min-width: 350px;
-  min-height: 500px;
+
 }
 
 #current-count {
@@ -41,7 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 20px 20px;
-  padding: 15px;
+  padding: 20px;
   font-size: 34px;
   border: 5px solid rgb(39, 91, 133);
   background-color: rgba(240, 248, 255, 0.267);
