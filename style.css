@@ -11,7 +11,8 @@ body {
 #options-window{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  max-width: 350px;
 }
 
 #counter-body {
@@ -27,7 +28,6 @@ body {
   border: 5px ridge aliceblue;
   border-radius: 5px;
   min-width: 350px;
-
 }
 
 #current-count {
@@ -82,4 +82,8 @@ button {
 #minus {
   border: 5px ridge rgb(205, 55, 55);
   background-color: rgb(176, 69, 69);
+}
+
+#count-by-input{
+  width: 15%;
 }
